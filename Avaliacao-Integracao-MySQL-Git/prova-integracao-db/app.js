@@ -3,6 +3,8 @@ import equipamentoRoutes from "./routes/equipamentoRoutes.js";
 import calibracaoRoutes from "./routes/calibracaoRoutes.js";
 import { conexao } from "./config/conexao.js";
 
+
+
 const app = express();
 const port = Number(process.env.PORT);
 
